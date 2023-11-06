@@ -17,18 +17,18 @@ import ReactDOM from 'react-dom/client';
 
 // console.log(parent);
 
-const Title = () =>{
-    <h1 className="head">
+const title = (
+    <h1 className="head" tabIndex="5">
          React using JSX
     </h1>
-}
+)
 
 // React fragment - behaves like an empty tag
 
 const HeadingComponent = () => (
     <>
     <div id="container">
-        <Title/>
+        {title}
         <h1 className="heading">Namaste React functional component</h1>
     </div>
     <div id="container-2"></div>
