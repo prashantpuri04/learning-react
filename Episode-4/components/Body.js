@@ -1,12 +1,15 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState } from "react";
 import resList from '../utils/mockData';
+import Shimmer from "./Shimmer";
 
 const Body = () => {
   // Local State Variable - Super powerful variable
   const [listOfRestaurants, setListOfRestraunt] = useState(resList);
 
-  return (
+  return listOfRestaurants.length === 0 ? (
+    <Shimmer />
+  ) : (
     <div className="body">
       <div className="filter">
         <button
