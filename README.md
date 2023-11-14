@@ -62,3 +62,8 @@ import {Component} from "path";
  (Normal JS utility functions)
 - useState() - Superpowerful State Variables in react
 - useEffect()
+
+In Episode 7  
+React Routing - react-router-dom
+whenver we need to create routes, we have to make a routing configuration
+creating an about page
