@@ -37,7 +37,7 @@ const appRouter = createBrowserRouter([
         element: <Contact/>,
       },
       {
-        path: "/restaurants/:resId", // :resId means is dyanamic
+        path: "/restaurant/:resId", // :resId means is dyanamic
         element: <RestaurantMenu/>
       }
     ],
